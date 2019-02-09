@@ -15,6 +15,8 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 SRCREV = "$AUTOREV"
 SRC_URI = "https://github.com/CosRay/mybbexample.git"
 
+SRC_URI[md5sum] = "8468e4679005542f5d5c02e0989119fa"
+SRC_URI[sha256sum] = "22c700c8d880764f42f1fee56f3d7495abca15dcdfb3c6ea66fbd956381d864c"
 
 S = "${WORKDIR}/git"
 
