@@ -4,15 +4,17 @@
 #
 
 DESCRIPTION = "Simple helloworld application"
-SECTION = "examples"
+SECTION = "myexamples"
 DEPENDS = ""
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=96af5705d6f64a88e035781ef00e98a8"
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
+#FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
 SRCREV = "5c58a861ca31710f6433487b8b0d590a43afd0ad"
 SRC_URI = "git://github.com/DynamicDevices/bbexample.git"
+
 
 S = "${WORKDIR}/git"
 
